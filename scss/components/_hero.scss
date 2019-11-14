@@ -1,0 +1,28 @@
+$font: 14px;
+.hero {
+	max-width: 400px;
+	&-title {
+		padding-bottom: 20px;
+	}
+	&-description {
+		padding-bottom: 20px;
+		font-size: $font;
+	}
+}
+.split-grid {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.split-description {
+	font-size: $font;
+	&::before {
+		content: '';
+		width: 2px;
+		height: 70px;
+		background-color: $color;
+		display: inline-block;
+		position: absolute;
+		margin-left: -30px;
+	}
+}

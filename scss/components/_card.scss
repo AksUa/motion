@@ -1,0 +1,12 @@
+.card {
+	padding: 0 15px;
+	text-align: center;
+	&-title {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	&-description {
+		padding-bottom: 20px;
+		font-size: 14px;
+	}
+}

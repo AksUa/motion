@@ -1,0 +1,23 @@
+@mixin forms {
+	padding: 10px 5px;
+	border: 2px solid rgb(182, 181, 181);
+	margin: 10px 0;
+}
+.form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	max-width: 300px;
+	margin: 0 auto;
+	&-name {
+		@include forms;
+	}
+	&-email {
+		@include forms;
+	}
+	&-comment {
+		@include forms;
+		height: 100px;
+		resize: none;
+	}
+}

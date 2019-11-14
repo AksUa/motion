@@ -1,0 +1,16 @@
+.nav {
+	padding: 20px 0;
+	&-item {
+		list-style: none;
+	}
+	&-link:hover {
+		color: #000;
+		text-decoration: none;
+		border-bottom: 2px $color solid;
+		padding-bottom: 20px;
+	}
+	&-logo:hover {
+		color: #000;
+		text-decoration: none;
+	}
+}
